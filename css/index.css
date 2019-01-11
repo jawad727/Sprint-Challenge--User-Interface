@@ -172,6 +172,50 @@ header nav a {
     margin-left: 70px;
 }
 
-.jumbo {
+.jumbo, .jumbo-about {
+    margin-bottom: 20px;
+}
+
+.abouts {
     margin-bottom: 30px;
+    border-bottom: 1px dotted black;
+    padding: 20px 0px;
+}
+
+.middle4 {
+    width:370px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.mid4container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.middle4 a {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.middle4 div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.middle6 img {
+    margin-bottom: 20px;
+}
+
+.bottomsec {
+   margin-bottom: 20px; 
+}
+
+a:hover {
+    color: grey;
 }
