@@ -214,8 +214,14 @@ header nav a {
 
 .bottomsec {
    margin-bottom: 20px; 
+   margin-top: 20px;
 }
 
 a:hover {
     color: grey;
+}
+
+.middle4 a:hover {
+    background-color: grey;
+    color: black;
 }
