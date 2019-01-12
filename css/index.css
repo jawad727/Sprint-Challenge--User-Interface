@@ -81,8 +81,10 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
 
 .middle-content {
@@ -101,10 +103,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -127,6 +128,8 @@ p {
 }
 
 footer {
+    display: flex;
+    align-items: flex-start;
     width: 100%;
     background: black;
 }
@@ -135,12 +138,133 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    align-items: flex-start;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.tophead {
+display: flex;
+align-items: baseline;
+margin-bottom: 40px;
+margin-top: 30px;
+}
+
+
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+}
+
+.jumbo, .jumbo-about {
+    margin-bottom: 20px;
+}
+
+.abouts {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted black;
+    padding: 20px 0px;
+}
+
+.middle4 {
+    width:370px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.mid4container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.middle4 a {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.middle4 div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.middle6 img {
+    margin-bottom: 20px;
+}
+
+.bottomsec {
+   margin-bottom: 20px; 
+   margin-top: 20px;
+}
+
+a:hover {
+    color: grey;
+}
+
+.middle4 a:hover {
+    background-color: grey;
+    color: black;
+}
+
+footer {
+
+}
+
+#box1 {
+background: teal;
+}
+
+#box2 {
+background: gold;
+}
+
+#box3 {
+background: cadetblue;
+}
+
+#box4 {
+background: coral;
+}
+
+#box5 {
+background: crimson;
+}
+
+#box6 {
+background: forestgreen;
+}
+
+#box7 {
+background: darkorchid;
+}
+
+#box8 {
+background: hotpink;
+}
+
+#box9 {
+background: indigo;
+}
+
+#box10 {
+background: dodgerblue;
 }
